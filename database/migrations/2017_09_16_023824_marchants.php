@@ -37,6 +37,6 @@ class Marchants extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('marchants');
     }
 }
